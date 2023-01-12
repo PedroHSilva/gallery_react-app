@@ -2,7 +2,7 @@
 export default function Tags() {
   return (
     <div>
-        <p>Filter por tagss:</p>
+        <p>Filter por tags:</p>
         <ul>
             <li>Estrelas</li>
             <li>Galáxias</li>
