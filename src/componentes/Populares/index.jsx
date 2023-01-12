@@ -5,7 +5,7 @@ export default function Populares() {
     return (
         <aside className={styles.populares}>
             <h2>Populares</h2>
-            <ul className={styles.populares_imagens}>
+            <ul className={styles.populares__imagens}>
                 {fotosPopulares.map((foto) => {
                     return (
                         <li key={foto.id}>
@@ -14,7 +14,7 @@ export default function Populares() {
                     )
                 })}
             </ul>
-            <button className={styles.populares_imagens}>Ver mais</button>
+            <button className={styles.populares.button}>Ver mais</button>
         </aside>
     )
 }
