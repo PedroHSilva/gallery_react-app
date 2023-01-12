@@ -5,7 +5,7 @@ export default function Cards({fotos, styles}) {
         <ul className={styles.galeria__cards}>
             {fotos.map((foto) => {
                 return (
-                    <Card foto={foto} styles={styles} />
+                    <Card key={foto.id} foto={foto} styles={styles} />
                 )
             })}
         </ul>
